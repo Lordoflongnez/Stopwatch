@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-image: url(./../image/time-3216252_1920.jpg);
+    position: absolute;
+}
+
+.chro {
+    text-align: center;
+    font-size: 4em;
+    color: brown;
+}
+
+.container-fluid {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.test {
+    text-align: center;
+}
+
+.button{
+    margin-top: 10px;
+    height: 30px;
+    width: 60px;
+    margin: inherit;
+}
+
+input {
+    margin: 10px 10px 10px 10px;
+}

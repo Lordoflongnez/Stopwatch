@@ -1,0 +1,82 @@
+<!-- _________Z %
+    _______ZZZZ 
+    ______ZZZZZZZ 
+    ______ZZZZZZZZZ 
+    _______ZZZZZZZZZZ 
+    ________ZZZZZZZZZZZ 
+    _________ZZZZZZZZZ 
+    _________ZZZZZZZZZ 
+    _________ZZZZZZZZZZ 
+    _________ZZZZZZZZZZZ 
+    _________ZZZZZZZZZZZZZ 
+    _________ZZZZZZZZZZZZZZ 
+    _________ZZZZZZZZZZZZZZZZZ 
+    _________ZZZZZZZZZZZZZZZZZZZ 
+    _________ZZZZZZZZZZZZZZZZZZZZ 
+    __________ZZZZZZZZZZZZZZZZZZZZZZZ 
+    ___________ZZZZZZZZZZZZZZZZZZZZZZZZZZZ 
+    ___________ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ 
+    _____________ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ 
+    ______________ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ 
+    ______________ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ 
+    _______________ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ 
+    _______________ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ 
+    ________________ZZZZ__ZZZ____ZZZZZZZZZZZZZZZZZZ 
+    _________________ZZ___ZZZ_____ZZZZZZZZZZZZZZZZZZ 
+    _________________ZZ___ZZZ_____ZZZZZZZZZZZZZZZZZZZZZ___ZZ 
+    _________________ZZ___ZZZ______ZZZZZZZZZZZZZ_ZZZZZZZZZZZ 
+    _________________ZZ___ZZZ______ZZZZZZZZZZZZZZ_ZZZZZZZZZ 
+    ________________ZZZ___ZZ_________ZZZZZ___ZZZZZ 
+    ___________ZZZZZZZ___ZZZ__________ZZZZZ____ZZZ 
+    ________ZZZZZZZZZZZZZZZ_____________ZZZ____ZZZ 
+    ____ZZZZZZZZZZZZZZZZZZZZZZZ_________ZZZ_____ZZZ 
+    ___ZZZZZZZZZZZZZZZZZZZZZZZZZZZ______ZZZ______ZZZ 
+    __ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ_______ZZZ 
+    _ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ_____ZZZ 
+    _ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ_ZZZ 
+    _ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ 
+    _ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ 
+    _ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ  -->
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="./style/style.css">
+        <script src="./js/script.js" defer></script>
+        <title>Chrono</title>
+    </head>
+    <body>
+        <div class="logo" ></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-xl-2">      
+                </div>
+                <div class="col-12 col-xl-8">
+                    <h1 class="chro" >Chronomètre</h1>
+                </div>
+                <div class="col-12 col-xl-2">
+                </div>
+            </div>
+        </div>
+        
+        <!-- parti du Chronomètre -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-xl-2">      
+                </div>
+                <div class="col-12 col-xl-8">
+                    <form name="chronoForm">
+                        <input class="test" type="text" name="chronotime" id="chronotime" value="0:00:00:00"/><br/>
+                        <input class="button" type="button" name="startstop" value="start!" onClick="chronoStart()" />
+                        <input class="button" type="button" name="reset" value="reset!" onClick="chronoReset()" />
+                        <input class="button" type="button" name="save" value="save!" onClick="chronosave()" />
+                    </form>
+                </div>
+                <div id="result" class="col-12 col-xl-2">
+                </div>
+            </div>
+        </div> 
+    </body>
+    </html>
